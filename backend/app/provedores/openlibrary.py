@@ -11,11 +11,11 @@ uma coleção de livros — sem mexer nas rotas, no banco nem no front.
 
 Pistas para começar (abra no navegador):
     https://openlibrary.org/search.json?q=duna&limit=10
-    https://openlibrary.org/works/OL893415W.json
+    https://openlibrary.org/works/OL893414W.json
     Capas: https://covers.openlibrary.org/b/id/{cover_i}-M.jpg
 
 Sugestão de mapeamento (olhe o JSON e decida você!):
-    id_externo <- "key" (ex.: "/works/OL893415W" -> guarde só "OL893415W")
+    id_externo <- "key" (ex.: "/works/OL893414W" -> guarde só "OL893414W")
     titulo     <- "title"
     subtitulo  <- autores ("author_name"), juntos com ", "
     ano        <- "first_publish_year"

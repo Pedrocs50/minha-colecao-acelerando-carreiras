@@ -8,7 +8,7 @@
 
 1. Explore no navegador:
    - https://openlibrary.org/search.json?q=duna&limit=10
-   - https://openlibrary.org/works/OL893415W.json
+   - https://openlibrary.org/works/OL893414W.json
 2. Implemente `buscar` e `detalhe`. Agora **ninguém** te dá o mapeamento pronto: olhe o JSON e decida.
 3. **Escreva você mesma os testes** em `tests/test_fase6_openlibrary.py`, copiando o estilo de `test_fase2_tvmaze.py`. Salve exemplos de JSON em `tests/dados/`.
 4. No `.env`, troque para `PROVEDOR=openlibrary`, reinicie o servidor e abra o site. 📚

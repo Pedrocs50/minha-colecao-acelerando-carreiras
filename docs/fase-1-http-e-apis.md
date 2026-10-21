@@ -68,7 +68,7 @@ Esses quatro são o **CRUD** (*Create, Read, Update, Delete*) da web.
 ## Para conversar na mentoria
 
 - Qual a diferença entre um erro 404 e um erro 500? De quem é a "culpa" em cada um?
-- Por que o TVmaze devolve `id` como número, mas o nosso formato usa `id_externo` como texto? (pense em outras APIs: a Open Library usa ids como `"OL893415W"`)
+- Por que o TVmaze devolve `id` como número, mas o nosso formato usa `id_externo` como texto? (pense em outras APIs: a Open Library usa ids como `"OL893414W"`)
 - O que aconteceria com o seu programa se a API demorasse 5 minutos para responder?
 
 ## Checklist
