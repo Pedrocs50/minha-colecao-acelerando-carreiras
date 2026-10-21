@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minha Coleção</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <h1>Minha Coleção</h1>
+    <p class="sub" id="provedor-nome">carregando…</p>
+  </header>
+
+  <main>
+    <div id="aviso" class="aviso" hidden></div>
+
+    <section class="painel">
+      <h2>Buscar</h2>
+      <form id="form-busca" class="busca">
+        <input id="campo-busca" type="search" placeholder="Digite um nome…" autocomplete="off">
+        <button type="submit">Buscar</button>
+      </form>
+      <div id="resultados" class="grade"></div>
+    </section>
+
+    <section class="painel">
+      <div class="cabecalho-colecao">
+        <h2>Minha lista</h2>
+        <div class="acoes-colecao">
+          <select id="filtro-status" aria-label="Filtrar por status">
+            <option value="">Todos</option>
+          </select>
+          <button id="botao-recomendar" class="secundario" hidden>O que escolher hoje?</button>
+        </div>
+      </div>
+      <div id="recomendacao" class="recomendacao" hidden></div>
+      <div id="colecao" class="grade"></div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <span id="credito"></span>
+  </footer>
+
+  <dialog id="dialogo">
+    <form id="form-item" method="dialog">
+      <h3 id="dialogo-titulo"></h3>
+      <label>Status
+        <select name="status" id="campo-status"></select>
+      </label>
+      <label>Nota
+        <select name="nota" id="campo-nota">
+          <option value="">Sem nota</option>
+          <option value="1">★</option>
+          <option value="2">★★</option>
+          <option value="3">★★★</option>
+          <option value="4">★★★★</option>
+          <option value="5">★★★★★</option>
+        </select>
+      </label>
+      <label>Comentário
+        <textarea name="comentario" id="campo-comentario" rows="3"></textarea>
+      </label>
+      <div class="botoes">
+        <button type="button" class="secundario" id="botao-cancelar">Cancelar</button>
+        <button type="submit" id="botao-salvar">Salvar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

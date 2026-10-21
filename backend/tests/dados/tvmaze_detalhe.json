@@ -1,0 +1,11 @@
+{
+  "id": 169,
+  "name": "Breaking Bad",
+  "genres": ["Drama", "Crime", "Thriller"],
+  "premiered": "2008-01-20",
+  "image": {
+    "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/501/1253519.jpg",
+    "original": "https://static.tvmaze.com/uploads/images/original_untouched/501/1253519.jpg"
+  },
+  "summary": "<p><b>Breaking Bad</b> follows protagonist Walter White, a chemistry teacher.</p>"
+}

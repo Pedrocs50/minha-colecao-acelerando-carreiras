@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Segredos: NUNCA suba o .env para o GitHub
+.env
+
+# Banco de dados local
+*.db
+
+# Editores / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
